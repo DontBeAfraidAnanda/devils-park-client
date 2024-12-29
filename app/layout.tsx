@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
-import "/public/styles/globals.css";
+import '/public/styles/globals.css';
+
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Devils Park",
-  description: "Devils Park",
+  title: 'Devils Park',
+  description: 'Devils Park',
 };
 
 export default function RootLayout({
